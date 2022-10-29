@@ -2,3 +2,36 @@ html, body {
   height: 100%;
   width: 100%;
 }
+#about{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+img{
+  border: 5px solid rgb(241, 134, 19);
+  border-radius: 5px;
+  padding: 2em;
+  margin: 2em;
+}
+nav{
+  display: flex; 
+  justify-content: space-between;
+}
+html{
+  background-color: #403f3f;
+}
+h1, p, ul{
+  color: white;
+  font-size: 20px;
+}
+footer{
+  text-align: center;
+}
+h2{
+  color: rgb(241, 134, 19);
+  text-align: center;
+  font-size: 38px;
+}
+a{
+  color: #53a1ea;
+}

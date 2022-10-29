@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <h1 style="margin: 1em; font-size: 28px;">Registration Page</h1>
+  <form action="./success.html">
+        <input type="firstname" required placeholder="Firstname" class="field2"/>
+        <input type="lastname" required placeholder="Lastname"  class="field2"/>
+        <input type="number" required placeholder="+234"  class="field2"/>
+        <input type="email" required placeholder="Email"  class="field2"/>
+      <div>
+        <input type="checkbox"  name="gender" class="field2"/>
+        <label for="gender">Male</label>
+        <input type="checkbox"  name="gender" class="field2"/>
+        <label for="gender">Female</label>
+      </div>
+        <label id="color">Favourite color</label>
+        <input name="color" type="color" required/>
+        <label for="date" id="date">Date of Birth </label>
+        <input type="date" class="field2" required/>
+        <input type="submit" value="Register" class="button"/>
+</body>
+</html>
